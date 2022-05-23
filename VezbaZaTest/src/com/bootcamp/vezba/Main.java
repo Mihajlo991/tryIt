@@ -52,7 +52,7 @@ public class Main {
         Alpinista a1 = new Alpinista(123, "Tijana", "Varga", 20);
         Alpinista a2 = new Alpinista(13, "Djura", "Djordjevic", 24);
         Alpinista a3 = new Alpinista(1234, "Isidor", "Bajic", 2);
-        ArrayList<Planinar>lista = new ArrayList<>();
+        ArrayList<Planinar> lista = new ArrayList<>();
         lista.add(rp1);
         lista.add(rp2);
         lista.add(rp3);
@@ -60,12 +60,13 @@ public class Main {
         lista.add(a2);
         lista.add(a3);
 
-        for (Planinar p : lista){
+        for (Planinar p : lista) {
 
             p.uspesanUspon(planina1.getVisinaPlanine());
 
-        }int suma = 0;
-        for(Planinar p : lista){
+        }
+        int suma = 0;
+        for (Planinar p : lista) {
 
             suma += p.clanarina();
 

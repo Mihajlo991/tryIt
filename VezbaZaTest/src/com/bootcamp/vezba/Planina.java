@@ -1,4 +1,5 @@
 package com.bootcamp.vezba;
+
 ///*Kreirati klasu Planina koju opisuju ime planine, naziv države u kojoj se nalazi i visina planine.
 // Klasa mora imati konstruktore i getere i setere.
 public class Planina {

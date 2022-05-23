@@ -18,18 +18,19 @@ public class RekreativniPlaninar extends Planinar {
 
     public RekreativniPlaninar(int planinarId, String ime, String prezime, int tezinaOpreme, String okrug, int maxUspon) {
         super(planinarId, ime, prezime);
-        if (tezinaOpreme>=0){
-        this.tezinaOpreme = tezinaOpreme;}
-        else {
-            System.out.println("Nevalidan unos!");}
+        if (tezinaOpreme >= 0) {
+            this.tezinaOpreme = tezinaOpreme;
+        } else {
+            System.out.println("Nevalidan unos!");
+        }
         this.okrug = okrug;
         if (maxUspon > 0) {
             this.maxUspon = maxUspon - (50 * tezinaOpreme);
         } else {
-            System.out.println("Nevalidan unos!");}
+            System.out.println("Nevalidan unos!");
+        }
 
     }
-
 
 
     public int getTezinaOpreme() {
